@@ -1,0 +1,68 @@
+.gallery__img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+  height: auto;
+  max-height: 70vh;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 8px;
+}
+
+.image-modal .ant-btn-primary {
+  background: hotpink;
+  border-color: hotpink;
+}
+
+.image-modal .ant-image-img,
+.image-modal .ant-image-mask {
+  border-radius: 50%;
+}
+
+.image-modal--no-breeds .ant-image-img,
+.image-modal--no-breeds .ant-image-mask {
+  border-radius: 0;
+}
+
+.image-modal .ant-image-img {
+  object-fit: cover;
+}
+
+.ant-rate {
+  white-space: nowrap;
+}
+
+.breeds-modal .ant-descriptions-item-label {
+  background-color: #f0f0f0;
+}
+
+.breeds-modal .ant-descriptions-bordered .ant-descriptions-view {
+  border: 1px solid #d6d6d6;
+}
+
+.breeds-modal .ant-descriptions-bordered .ant-descriptions-row {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.breeds-modal .ant-descriptions-bordered .ant-descriptions-item-content,
+.ant-descriptions-bordered .ant-descriptions-item-label {
+  border-right: 1px solid #d6d6d6;
+}
+
+.breeds-modal
+  .ant-descriptions-bordered
+  .ant-descriptions-item-content:last-child,
+.breeds-modal
+  .ant-descriptions-bordered
+  .ant-descriptions-item-label:last-child {
+  border-right: none;
+}
+
+.favourite-modal .ant-image-img {
+  object-fit: cover;
+}

@@ -1,0 +1,22 @@
+.logo {
+  height: 60px;
+  background: #002140;
+  display: flex;
+  align-items: center;
+}
+
+.cat-svg {
+  height: 50px;
+  width: 50px;
+  margin: 5px 15px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.logo__desc {
+  color: #dadada;
+  font-weight: 600;
+  font-size: 32px;
+}

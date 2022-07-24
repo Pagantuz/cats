@@ -1,0 +1,12 @@
+.breeds-search__container {
+  max-width: 256px;
+}
+
+.name-search {
+  max-width: 256px;
+}
+
+.breeds-search-button {
+  margin-top: 24px;
+  width: 100%;
+}
